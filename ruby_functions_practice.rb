@@ -1,10 +1,6 @@
-# Hi
-# Hello there
-
 def return_10()
   return 10
 end
-
 
 def add( n1, n2 )
   return n1 + n2
