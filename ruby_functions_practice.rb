@@ -2,20 +2,20 @@ def return_10()
   return 10
 end
 
-def add( n1, n2 )
-  return n1 + n2
+def add( number_1, number_2 )
+  return number_1 + number_2
 end
 
-def subtract( n1, n2 )
-  return n1 - n2
+def subtract( number_1, number_2 )
+  return number_1 - number_2
 end
 
-def multiply( n1, n2 )
-  return n1 * n2
+def multiply( number_1, number_2 )
+  return number_1 * number_2
 end
 
-def divide( n1, n2 )
-  return n1 / n2
+def divide( number_1, number_2 )
+  return number_1 / number_2
 end
 
 def length_of_string( test_string )
@@ -40,15 +40,15 @@ def number_to_short_month_name(month_number)
   return months[month_number][0,3]
 end
 
-def volume_of_cube( n1 )
-  return n1 * n1 * n1
+def volume_of_cube( number_1 )
+  return number_1 ** 3
 end
 
-def volume_of_sphere( n1 )
-  return (4 / 3) * 3.14 * (n1 **3)
+def volume_of_sphere( number_1 )
+  return (4 / 3) * 3.14 * (number_1 **3)
 end
 
-def conversion( n1 )
-  result = (n1 - 32.0) * 5 / 9
+def conversion( number_1 )
+  result = (number_1 - 32.0) * 5 / 9
   return result.round(2)
 end
