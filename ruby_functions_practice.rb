@@ -45,7 +45,8 @@ def volume_of_cube( number_1 )
 end
 
 def volume_of_sphere( number_1 )
-  return (4 / 3) * 3.14 * (number_1 **3)
+  calc = (4 / 3.0) * Math::PI * (number_1 **3)
+  return calc.round(3)
 end
 
 def conversion( number_1 )
